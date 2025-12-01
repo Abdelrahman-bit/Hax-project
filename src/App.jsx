@@ -6,11 +6,11 @@ import Contact from "./pages/Contact";
 function App() {
 	return (
 		<BrowserRouter>
-			<nav>
+			{/* <nav>
 				<Link to='/'>Home</Link>
 				<Link to='/about'>About</Link>
 				<Link to='/contact'>Contact</Link>
-			</nav>
+			</nav> */}
 			<Routes>
 				<Route path='/' element={<Home />} />
 				<Route path='/about' element={<About />} />
