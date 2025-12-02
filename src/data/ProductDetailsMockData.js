@@ -1,0 +1,67 @@
+const mockProductData = {
+	id: 1,
+	name: "iPhone 16 Pro Max 256GB Desert Titanium 5G With FaceTime - International Version",
+	breadcrumb: ["Home", "Mobile Phones", "Apple iPhone 16 Pro Max (256 GB)"],
+	image: "https://images.unsplash.com/photo-1696446702883-72bf6eb49882?w=800",
+	currentPrice: 79000,
+	currency: "EGP",
+	priceStatus: "Not Good",
+	lowestPrice: 67670,
+	highestPrice: 120000,
+	recentPriceDrop: 57070,
+	seller: {
+		name: "Amazon Sellers",
+		logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+	},
+	buyLink: "#",
+	priceHistory: [
+		{ month: 0, price: 120000 },
+		{ month: 1, price: 85000 },
+		{ month: 2, price: 82000 },
+		{ month: 3, price: 95000 },
+		{ month: 4, price: 110000 },
+		{ month: 5, price: 88000 },
+		{ month: 6, price: 85000 },
+		{ month: 7, price: 79000 },
+	],
+};
+
+const mockSimilarProducts = [
+	{
+		id: 1,
+		name: "Apple iPhone 16 Pro Max (256 GB)...",
+		image: "https://images.unsplash.com/photo-1696446702883-72bf6eb49882?w=400",
+		price: 6860,
+		originalPrice: 8600,
+		discount: 40,
+		store: "amazon",
+	},
+	{
+		id: 2,
+		name: "Samsung Galaxy S25 Ultra AI Phone...",
+		image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400",
+		price: 6860,
+		originalPrice: 8600,
+		discount: 40,
+		store: "amazon",
+	},
+	{
+		id: 3,
+		name: "Apple iPhone 17 Pro Max (256 GB)...",
+		image: "https://images.unsplash.com/photo-1678911820864-e5c67c32ab2d?w=400",
+		price: 6860,
+		originalPrice: 9700,
+		discount: 40,
+		store: "amazon",
+	},
+	{
+		id: 4,
+		name: "Xiaomi Redmi Note 14 Smartphone...",
+		image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400",
+		price: 6860,
+		originalPrice: 8600,
+		discount: 40,
+		store: "amazon",
+	},
+];
+export { mockProductData, mockSimilarProducts };
